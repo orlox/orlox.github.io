@@ -4,16 +4,19 @@ title:  "3D printed Roche potential"
 date:   2021-12-29 17:13:55 +0100
 categories: jekyll update
 ---
+
+![Roche potentail](/assets/Roche-3d-print.jpg){: width="250" style="float: right"}
 As part of my corona-driven hobbies I ended up getting a 3D printer and doing
 some 3D modeling. Using the scripting capabilities of blender I made a model of
 a Roche potential, which is really nice to visualize and teach its properties.
-
-![Roche potentail](/assets/Roche-3d-print.jpg){: width="250"}
 
 The STL file for printing was produced with blender using the script below.
 This only produces a base mesh that then needs to be closed down. If you're interested
 in plotting any type of function with some contour lines, check my github
 repository [blender-function-plot][blender-function-plot] which goes into a bit more detail.
+
+If you want to download and print the STL file check it [here][thingiverse-link]. The file there is for
+a mass ratio of 2. If you're interested in a different mass ratio, let me know!
 
 {% highlight python %}
 import bpy
@@ -156,3 +159,4 @@ bm.free()  # always do this when finished
 {% endhighlight %}
 
 [blender-function-plot]: https://github.com/orlox/blender_function_plot
+[thingiverse-link]: https://www.thingiverse.com/thing:5178421/apps

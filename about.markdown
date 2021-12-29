@@ -1,18 +1,15 @@
 ---
 layout: page
-title: About
+title: About myself
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+![Myself](/assets/photo.JPG){: width="200" style="float: right"}
+I'm Pablo Marchant (full name Pablo Ignacio Marchant Campos) a Chilean born
+astronomer currently working as an FWO junior postdoctoral fellow at the Institute
+of Astronomy of KU Leuven. My main interest is in theoretical stellar evolution, and I've
+done significant work on the study of single and binary massive star evolution. One of my main scientific
+interests concerns the formation pathways of gravitational wave sources. The main tool for
+my work is the [MESA][MESA] open source instrument for stellar evolution, of which I'm one of the main developers.
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
-
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
+[MESA]: https://mesa.mesastar.org
