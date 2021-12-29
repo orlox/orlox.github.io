@@ -4,7 +4,7 @@ title: About myself
 permalink: /about/
 ---
 
-![Myself](/assets/photo.JPG){: width="200" style="float: right"}
+![Myself](/assets/photo.JPG){: width="30%" style="float: right"}
 I'm Pablo Marchant (full name Pablo Ignacio Marchant Campos) a Chilean born
 astronomer currently working as an FWO junior postdoctoral fellow at the Institute
 of Astronomy of KU Leuven. My main interest is in theoretical stellar evolution, and I've

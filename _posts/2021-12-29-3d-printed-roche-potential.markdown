@@ -5,7 +5,7 @@ date:   2021-12-29 17:13:55 +0100
 categories: jekyll update
 ---
 
-![Roche potentail](/assets/Roche-3d-print.jpg){: width="250" style="float: right"}
+![Roche potentail](/assets/Roche-3d-print.jpg){: width="30%" style="float: right"}
 As part of my corona-driven hobbies I ended up getting a 3D printer and doing
 some 3D modeling. Using the scripting capabilities of blender I made a model of
 a Roche potential, which is really nice to visualize and teach its properties.
