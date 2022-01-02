@@ -92,7 +92,7 @@ phiL2 = phi(xL2,0)
 print(xL2, phiL2)
 
 #find L4
-#L4 and L5 form equilateral triangles with L1 and L2
+#L4 and L5 form equilateral triangles with M1 and M2
 xL4 = 0.5*(x1+x2)
 yL4 = np.sqrt(3)/2*abs(x1-x2)
 phiL4 = phi(xL4,yL4)
