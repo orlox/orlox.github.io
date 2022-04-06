@@ -23,7 +23,7 @@ proposals. SVG files are provided here, so feel free to take specific parts to m
 
 - Formation of a Be X-ray binary. 
 
-![MOB](/assets/illustration/be.svg){: width="200px"}
+![be](/assets/illustration/be.svg){: width="200px"}
 
 - Illustration of various evolutionary channels leading to a merging binary black hole. Figure from a proposal.
 
@@ -32,15 +32,15 @@ proposals. SVG files are provided here, so feel free to take specific parts to m
 - Formation of a binary black hole from common envelope and chemically homogeneous evolution, with potential pulsational pair-instability supernovae in between.
 Part of [Marchant et al. 2019](https://ui.adsabs.harvard.edu/abs/2019ApJ...882...36M/abstract).
 
-![channels1](/assets/illustration/channels_CE_vs_CHE.svg){: width="100%"}
+![channels2](/assets/illustration/channels_CE_vs_CHE.svg){: width="100%"}
 
 - Various uncertainties in the formation of a binary black hole from a binary star. Figure from a proposal.
 
-![channels1](/assets/illustration/diagram_flow.svg){: width="100%"}
+![channels3](/assets/illustration/diagram_flow.svg){: width="100%"}
 
 - Formation of a binary containing an extremely low mass white dwarf. Made by request from Alina Istrate.
 
-![channels1](/assets/illustration/ELM.svg){: width="100%"}
+![elm](/assets/illustration/ELM.svg){: width="100%"}
 
 ****
 ----
