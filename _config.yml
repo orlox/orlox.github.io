@@ -34,7 +34,7 @@ github_username:  orlox
 theme: minima
 header_pages: 
   - cv.markdown
-  - code.markdown
+    #  - code.markdown
   - resources.markdown
   - about.markdown
 plugins:
