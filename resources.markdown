@@ -21,6 +21,10 @@ proposals. SVG files are provided here, so feel free to take specific parts to m
 
 ![MOB](/assets/illustration/ULX.svg){: width="200px"}
 
+- Formation of a Be X-ray binary. 
+
+![MOB](/assets/illustration/be.svg){: width="200px"}
+
 - Illustration of various evolutionary channels leading to a merging binary black hole. Figure from a proposal.
 
 ![channels1](/assets/illustration/channels.svg){: width="100%"}
@@ -34,7 +38,7 @@ Part of [Marchant et al. 2019](https://ui.adsabs.harvard.edu/abs/2019ApJ...882..
 
 ![channels1](/assets/illustration/diagram_flow.svg){: width="100%"}
 
-- Formation of a binary containing an extremely low mass white dwarf.
+- Formation of a binary containing an extremely low mass white dwarf. Made by request from Alina Istrate.
 
 ![channels1](/assets/illustration/ELM.svg){: width="100%"}
 
@@ -46,12 +50,12 @@ Also my wife (Sara Pinilla) has helped produce what I consider to be much pretti
 of these below, if you like them and would like to use them, just be sure to credit her. Interpretation of what each
 image represents is up to the viewer!
 
-![Abrazo](/assets/illustration/Abrazo.png){: height="200px" style="float: left"}
-![Binario](/assets/illustration/Binario.png){: height="200px" style="float: left"}
-![Eta](/assets/illustration/Eta.png){: height="200px" style="float: left"}
-![Inhomogenea](/assets/illustration/Inhomogenea.png){: height="200px" style="float: left"}
-![Magnetica](/assets/illustration/Magnetica.png){: height="200px" style="float: left"}
-![PobreEstrella](/assets/illustration/PobreEstrella.png){: height="200px" style="float: left"}
-![Pulsares](/assets/illustration/Pulsares.png){: height="200px" style="float: left"}
-![Supernova](/assets/illustration/Supernova.png){: height="200px" style="float: left"}
+![Abrazo](/assets/illustration/Abrazo.png){: height="230px" style="float: left"}
+![Binario](/assets/illustration/Binario.png){: height="230px" style="float: left"}
+![Eta](/assets/illustration/Eta.png){: height="230px" style="float: left"}
+![Inhomogenea](/assets/illustration/Inhomogenea.png){: height="230px" style="float: left"}
+![Magnetica](/assets/illustration/Magnetica.png){: height="230px" style="float: left"}
+![PobreEstrella](/assets/illustration/PobreEstrella.png){: height="230px" style="float: left"}
+![Pulsares](/assets/illustration/Pulsares.png){: height="230px" style="float: left"}
+![Supernova](/assets/illustration/Supernova.png){: height="230px" style="float: left"}
 
