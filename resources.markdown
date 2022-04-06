@@ -58,4 +58,5 @@ image represents is up to the viewer!
 ![PobreEstrella](/assets/illustration/PobreEstrella.png){: height="230px" style="float: left"}
 ![Pulsares](/assets/illustration/Pulsares.png){: height="230px" style="float: left"}
 ![Supernova](/assets/illustration/Supernova.png){: height="230px" style="float: left"}
+![BBH](/assets/illustration/bhbinary.png){: height="230px" style="float: left"}
 
