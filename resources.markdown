@@ -19,7 +19,7 @@ _"Evolution of axially symmetric magnetic fields in neutron star crusts due to t
 results were published as [Marchant et al. (2015)](https://ui.adsabs.harvard.edu/abs/2014ApJ...796...94M/abstract)
 - [Undergrad thesis](../assets/docs/Undergrad_thesis.pdf): <br>
 _"Large-scale instabilities of poloidal magnetic fields in stars"_<br>
-results were published as [Marchant et al. (2015)](https://ui.adsabs.harvard.edu/abs/2011MNRAS.415.2426M/abstract)
+results were published as [Marchant et al. (2011)](https://ui.adsabs.harvard.edu/abs/2011MNRAS.415.2426M/abstract)
 
 ****
 ----
