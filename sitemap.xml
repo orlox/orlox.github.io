@@ -20,6 +20,12 @@
     <priority>0.5</priority>
 </url>
 <url>
+    <loc>https://orlox.github.io/_posts/2021-12-28-hello-world/index.html</loc>
+    <lastmod>2023-07-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
     <loc>https://orlox.github.io/menu1/index.html</loc>
     <lastmod>2023-07-22</lastmod>
     <changefreq>monthly</changefreq>
@@ -33,12 +39,6 @@
 </url>
 <url>
     <loc>https://orlox.github.io/resources/index.html</loc>
-    <lastmod>2023-07-22</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
-    <loc>https://orlox.github.io/old_site/404/</loc>
     <lastmod>2023-07-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
