@@ -27,3 +27,6 @@ Add here global latex commands to use throughout your pages.
 -->
 \newcommand{\R}{\mathbb R}
 \newcommand{\scal}[1]{\langle #1 \rangle}
+\newcommand{\html}[1]{~~~#1~~~}
+\newcommand{\imagewithsize}[3]{\html{<img src="#1" alt="#2" style="width:#3"></img>}}
+\newcommand{\floatimagewithsize}[3]{\html{<img src="#1" alt="#2" style="width:#3;float:left; padding-left:0%"></img>}}
