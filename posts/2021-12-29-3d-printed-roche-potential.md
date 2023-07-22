@@ -1,11 +1,15 @@
----
-layout: post
-title:  "3D printed Roche potential"
-date:   2021-12-29 17:13:55 +0100
-categories: jekyll update
----
++++
+title = "3D printed Roche potential"
+hascode = true
+date = Date(2021, 12, 29)
+rss = "A simple python script to produce geometry in blender from a function. This can be used to produce files for 3d printing."
 
-![Roche potentail](/assets/Roche-3d-print.jpg){: width="30%" style="float: right"}
+tags = ["3dprinting", "code", "python", "roche potential"]
++++
+{{date}}
+
+![Roche potentail](/assets/Roche-3d-print.jpg)
+
 As part of my corona-driven hobbies I ended up getting a 3D printer and doing
 some 3D modeling. Using the scripting capabilities of blender I made a model of
 a Roche potential, which is really nice to visualize and teach its properties.
@@ -18,7 +22,7 @@ repository [blender-function-plot][blender-function-plot] which goes into a bit 
 If you want to download and print the STL file check it [here][thingiverse-link]. The file there is for
 a mass ratio of 2. If you're interested in a different mass ratio, let me know!
 
-{% highlight python %}
+```python
 import bpy
 import numpy as np
 import bmesh
@@ -156,7 +160,7 @@ for i in range(len(xvals)-1):
 # make the bmesh the object's mesh
 bm.to_mesh(mesh)  
 bm.free()  # always do this when finished
-{% endhighlight %}
+```
 
 [blender-function-plot]: https://github.com/orlox/blender_function_plot
 [thingiverse-link]: https://www.thingiverse.com/thing:5178421/apps
