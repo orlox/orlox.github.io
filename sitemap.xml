@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+<url>
+    <loc>https://orlox.github.io/menu2/index.html</loc>
+    <lastmod>2023-07-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://orlox.github.io/cv/index.html</loc>
+    <lastmod>2023-07-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://orlox.github.io/menu3/index.html</loc>
+    <lastmod>2023-07-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://orlox.github.io/menu1/index.html</loc>
+    <lastmod>2023-07-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://orlox.github.io/index.html</loc>
+    <lastmod>2023-07-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://orlox.github.io/resources/index.html</loc>
+    <lastmod>2023-07-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://orlox.github.io/old_site/404/</loc>
+    <lastmod>2023-07-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+</urlset>

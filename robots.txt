@@ -1,0 +1,4 @@
+Sitemap: https://orlox.github.io/sitemap.xml
+
+User-agent: *
+Disallow:
