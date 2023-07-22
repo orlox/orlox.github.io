@@ -1,0 +1,137 @@
+<!doctype html> <html lang=en > <meta charset=UTF-8 > <meta name=viewport  content="width=device-width, initial-scale=1"> <link rel=stylesheet  href="/libs/highlight/styles/github.min.css"> <link href="/css/franklin.css" rel=stylesheet > <link href="/css/vela.css" rel=stylesheet > <script src="/libs/vela/jquery.min.js"></script> <link rel=icon  href="/assets/favicon.png"> <title>Franklin Example | Vela</title> <div class="main-nav slideout-menu slideout-menu-left" id=menu > <div class=flex-container > <span class=sidebar-brand > <h3 style='font-size: 25px'>Pablo Marchant</h3> </span> </div> <nav class=sidebar-nav > <ul class=metismenu  id=metismenu  > <li><a href="/index.html">Home</a> <li><a href="/cv/">CV</a> <!-- <li><a href="" class=has-arrow >Topic</a> <ul> <li><a href="/menu2/">More goodies</a> </ul> --> <li><a href="/resources/">Resources</a> <li><a href="/ramblings/">Ramblings</a> </ul> </nav> </div> <main id=panel  class="slidout-panel slideout-panel-left"> <div class="toggle-button hamburger hamburger--spin"> <div class=hamburger-box > <div class=hamburger-inner ></div> </div> </div> <h1 class="page title">3D printed Roche potential</h1> <hr> <div class=franklin-content ><p> 2021-12-29</p> <p><img src="/assets/Roche-3d-print.jpg" alt="Roche potentail" /></p> <p>As part of my corona-driven hobbies I ended up getting a 3D printer and doing some 3D modeling. Using the scripting capabilities of blender I made a model of a Roche potential, which is really nice to visualize and teach its properties.</p> <p>The STL file for printing was produced with blender using the script below. This only produces a base mesh that then needs to be closed down. If you&#39;re interested in plotting any type of function with some contour lines, check my github repository <a href="https://github.com/orlox/blender_function_plot">blender-function-plot</a> which goes into a bit more detail.</p> <p>If you want to download and print the STL file check it <a href="https://www.thingiverse.com/thing:5178421/apps">here</a>. The file there is for a mass ratio of 2. If you&#39;re interested in a different mass ratio, let me know&#33;</p> <pre><code class="python hljs"><span class=hljs-keyword >import</span> bpy
+<span class=hljs-keyword >import</span> numpy <span class=hljs-keyword >as</span> np
+<span class=hljs-keyword >import</span> bmesh
+
+xvals = np.linspace(-<span class=hljs-number >1.5</span>,<span class=hljs-number >1.5</span>,<span class=hljs-number >400</span>)
+yvals = np.linspace(-<span class=hljs-number >1.5</span>,<span class=hljs-number >1.5</span>,<span class=hljs-number >400</span>)
+
+verts = np.zeros((<span class=hljs-built_in >len</span>(xvals),<span class=hljs-built_in >len</span>(yvals),<span class=hljs-number >3</span>))
+
+q = <span class=hljs-number >2</span>
+x1 = -<span class=hljs-number >1</span>/(q+<span class=hljs-number >1</span>)
+x2 = q/(q+<span class=hljs-number >1</span>)
+
+<span class=hljs-comment ># roche potential</span>
+<span class=hljs-keyword >def</span> <span class="hljs-title function_">phi</span>(<span class=hljs-params >x,y</span>):
+    val = -x2/np.sqrt(np.power(x-x1,<span class=hljs-number >2</span>)+np.power(y,<span class=hljs-number >2</span>))
+    val = val + x1/np.sqrt(np.power(x-x2,<span class=hljs-number >2</span>)+np.power(y,<span class=hljs-number >2</span>))
+    val = val - <span class=hljs-number >0.5</span>*(np.power(x,<span class=hljs-number >2</span>) + np.power(y,<span class=hljs-number >2</span>))
+    <span class=hljs-keyword >return</span> val
+
+<span class=hljs-comment ># derivative along the line joining both stars</span>
+<span class=hljs-comment ># used to find Lagrangian points</span>
+<span class=hljs-keyword >def</span> <span class="hljs-title function_">dphi_dx</span>(<span class=hljs-params >x</span>):
+    <span class=hljs-keyword >return</span> +x2/np.power(x-x1,<span class=hljs-number >2</span>)*np.sign(x-x1) - x1/np.power(x-x2,<span class=hljs-number >2</span>)*np.sign(x-x2) - x
+
+<span class=hljs-comment ># gradient of the potential. This is used to make nice contour lines</span>
+<span class=hljs-keyword >def</span> <span class="hljs-title function_">abs_grad_phi</span>(<span class=hljs-params >x,y</span>):
+    den1 = np.power(np.power(x-x1,<span class=hljs-number >2</span>)+np.power(y,<span class=hljs-number >2</span>),<span class=hljs-number >1.5</span>)
+    den2 = np.power(np.power(x-x2,<span class=hljs-number >2</span>)+np.power(y,<span class=hljs-number >2</span>),<span class=hljs-number >1.5</span>)
+    dpdx = x2*(x-x1)/den1 - x1*(x-x2)/den2 - x
+    dpdy = x2*y/den1 - x1*y/den2 - y
+    <span class=hljs-keyword >return</span> np.sqrt(np.power(dpdx,<span class=hljs-number >2</span>)+np.power(dpdy,<span class=hljs-number >2</span>))
+
+<span class=hljs-comment >#find L1</span>
+x_low = x1*<span class=hljs-number >0.99</span>
+x_up = x2*<span class=hljs-number >0.99</span>
+xL1 = <span class=hljs-number >0</span>
+<span class=hljs-keyword >while</span> <span class=hljs-built_in >abs</span>(x_low-x_up) &gt; <span class=hljs-number >1e-10</span>:
+    xL1 = <span class=hljs-number >0.5</span>*(x_low+x_up)
+    <span class=hljs-keyword >if</span> dphi_dx(xL1)&gt;<span class=hljs-number >0</span>:
+        x_low = xL1
+    <span class=hljs-keyword >else</span>:
+        x_up = xL1
+phiL1 = phi(xL1,<span class=hljs-number >0</span>)
+<span class=hljs-built_in >print</span>(xL1, phiL1)
+
+<span class=hljs-comment >#find L3</span>
+x_low = -<span class=hljs-number >2</span>
+x_up = <span class=hljs-number >1.01</span>*x1
+xL3 = <span class=hljs-number >0</span>
+<span class=hljs-keyword >while</span> <span class=hljs-built_in >abs</span>(x_low-x_up) &gt; <span class=hljs-number >1e-10</span>:
+    xL3 = <span class=hljs-number >0.5</span>*(x_low+x_up)
+    <span class=hljs-keyword >if</span> dphi_dx(xL3)&gt;<span class=hljs-number >0</span>:
+        x_low = xL3
+    <span class=hljs-keyword >else</span>:
+        x_up = xL3
+phiL3 = phi(xL3,<span class=hljs-number >0</span>)
+<span class=hljs-built_in >print</span>(xL3, phiL3)
+
+<span class=hljs-comment ># find L2</span>
+x_low = x2*<span class=hljs-number >1.01</span>
+x_up = <span class=hljs-number >2</span>
+xL2 = <span class=hljs-number >0</span>
+<span class=hljs-keyword >while</span> <span class=hljs-built_in >abs</span>(x_low-x_up) &gt; <span class=hljs-number >1e-10</span>:
+    xL2 = <span class=hljs-number >0.5</span>*(x_low+x_up)
+    <span class=hljs-keyword >if</span> dphi_dx(xL2)&gt;<span class=hljs-number >0</span>:
+        x_low = xL2
+    <span class=hljs-keyword >else</span>:
+        x_up = xL2
+phiL2 = phi(xL2,<span class=hljs-number >0</span>)
+<span class=hljs-built_in >print</span>(xL2, phiL2)
+
+<span class=hljs-comment >#find L4</span>
+<span class=hljs-comment >#L4 and L5 form equilateral triangles with M1 and M2</span>
+xL4 = <span class=hljs-number >0.5</span>*(x1+x2)
+yL4 = np.sqrt(<span class=hljs-number >3</span>)/<span class=hljs-number >2</span>*<span class=hljs-built_in >abs</span>(x1-x2)
+phiL4 = phi(xL4,yL4)
+<span class=hljs-built_in >print</span>(xL4,yL4,phi(xL4,yL4))
+
+<span class=hljs-comment ># Make one equipotential between L3 and L4</span>
+phi_mid = <span class=hljs-number >0.5</span>*(phiL4+phiL3)
+
+phi_cm = phi(<span class=hljs-number >0</span>,<span class=hljs-number >0</span>)
+
+<span class=hljs-comment >#create points for mesh</span>
+<span class=hljs-keyword >for</span> i, xval <span class=hljs-keyword >in</span> <span class=hljs-built_in >enumerate</span>(xvals):
+    <span class=hljs-keyword >for</span> j, yval <span class=hljs-keyword >in</span> <span class=hljs-built_in >enumerate</span>(yvals):
+        zval = phi(xval,yval)
+        grad = abs_grad_phi(xval,yval)
+        <span class=hljs-keyword >if</span> zval &gt; -<span class=hljs-number >2.7</span>:
+            <span class=hljs-comment >#this flattens the mesh near equipotentials </span>
+            <span class=hljs-keyword >if</span> (<span class=hljs-built_in >abs</span>(zval-phiL1)) &lt; grad*<span class=hljs-number >0.02</span>:
+                zval = phiL1
+            <span class=hljs-keyword >elif</span> (<span class=hljs-built_in >abs</span>(zval-phiL2)) &lt; grad*<span class=hljs-number >0.02</span>:
+                zval = phiL2
+            <span class=hljs-keyword >elif</span> (<span class=hljs-built_in >abs</span>(zval-phiL3)) &lt; grad*<span class=hljs-number >0.02</span>:
+                zval = phiL3
+            <span class=hljs-keyword >elif</span> (<span class=hljs-built_in >abs</span>(zval-phi_mid)) &lt; grad*<span class=hljs-number >0.02</span>:
+                zval = phi_mid
+            <span class=hljs-keyword >elif</span> (<span class=hljs-built_in >abs</span>(xL4-xval) + <span class=hljs-built_in >abs</span>(yL4-yval) &lt; <span class=hljs-number >0.04</span>):
+                zval = phiL4+<span class=hljs-number >0.05</span>
+            <span class=hljs-keyword >elif</span> (<span class=hljs-built_in >abs</span>(xval) + <span class=hljs-built_in >abs</span>(yval) &lt; <span class=hljs-number >0.04</span>):
+                zval = phi_cm+<span class=hljs-number >0.4</span>
+        zval = <span class=hljs-built_in >max</span>(zval,-<span class=hljs-number >2.7</span>)
+        verts[i,j] = np.array([xval,yval,zval])
+        
+mesh = bpy.data.meshes.new(<span class=hljs-string >&quot;mesh&quot;</span>)  <span class=hljs-comment ># add a new mesh</span>
+obj = bpy.data.objects.new(<span class=hljs-string >&quot;MyObject&quot;</span>, mesh)  <span class=hljs-comment ># add a new object using the mesh</span>
+
+scene = bpy.context.scene
+bpy.context.collection.objects.link(obj)
+bpy.context.view_layer.objects.active = obj  <span class=hljs-comment ># set as the active object in the scene</span>
+obj.select_set(<span class=hljs-literal >True</span>)
+
+mesh = bpy.context.<span class=hljs-built_in >object</span>.data
+bm = bmesh.new()
+
+vertex_matrix = [[<span class=hljs-literal >None</span> <span class=hljs-keyword >for</span> x <span class=hljs-keyword >in</span> <span class=hljs-built_in >range</span>(<span class=hljs-built_in >len</span>(xvals))] <span class=hljs-keyword >for</span> y <span class=hljs-keyword >in</span> <span class=hljs-built_in >range</span>(<span class=hljs-built_in >len</span>(yvals))] 
+
+<span class=hljs-keyword >for</span> i, xval <span class=hljs-keyword >in</span> <span class=hljs-built_in >enumerate</span>(xvals):
+    <span class=hljs-keyword >for</span> j, yval <span class=hljs-keyword >in</span> <span class=hljs-built_in >enumerate</span>(yvals):
+        v = verts[i,j]
+        vertex_matrix[i][j] = bm.verts.new(v)  <span class=hljs-comment ># add a new vert</span>
+
+<span class=hljs-keyword >for</span> i <span class=hljs-keyword >in</span> <span class=hljs-built_in >range</span>(<span class=hljs-built_in >len</span>(xvals)-<span class=hljs-number >1</span>):
+    <span class=hljs-keyword >for</span> j <span class=hljs-keyword >in</span> <span class=hljs-built_in >range</span>(<span class=hljs-built_in >len</span>(yvals)-<span class=hljs-number >1</span>):
+        v1 = vertex_matrix[i][j]
+        v2 = vertex_matrix[i+<span class=hljs-number >1</span>][j]
+        v3 = vertex_matrix[i][j+<span class=hljs-number >1</span>]
+        v4 = vertex_matrix[i+<span class=hljs-number >1</span>][j+<span class=hljs-number >1</span>]
+        face1 = bm.faces.new((v1, v2, v3))
+        face2 = bm.faces.new((v2, v3, v4))
+        face2.normal_flip()
+
+<span class=hljs-comment ># make the bmesh the object&#x27;s mesh</span>
+bm.to_mesh(mesh)  
+bm.free()  <span class=hljs-comment ># always do this when finished</span></code></pre> <p></p> <div class=page-foot > <a href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a> Pablo Marchant. Last modified: July 22, 2023. Website built with <a href="https://github.com/tlienart/Franklin.jl">Franklin.jl</a> and the <a href="https://julialang.org">Julia programming language</a>. </div> </div> </main> <script src="/libs/vela/metisMenu.min.js"></script> <script src="/libs/vela/slideout.min.js"></script> <script src="/libs/highlight/highlight.min.js"></script> <script>hljs.highlightAll();hljs.configure({tabReplace: ' '});</script>

@@ -3,12 +3,12 @@
 
 <svg
    sodipodi:docname="ELM.svg"
-   inkscape:version="1.1.2 (1:1.1+202202050950+0a00cf5339)"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
    id="svg8"
    version="1.1"
-   viewBox="0 0 194.06458 131.31148"
-   height="131.31148mm"
-   width="194.06459mm"
+   viewBox="0 0 194.82129 130.92668"
+   height="130.92668mm"
+   width="194.8213mm"
    inkscape:export-filename="/lhome/pablom/Desktop/alina/diagram.png"
    inkscape:export-xdpi="183.24001"
    inkscape:export-ydpi="183.24001"
@@ -22,15 +22,15 @@
    xmlns:dc="http://purl.org/dc/elements/1.1/">
   <sodipodi:namedview
      inkscape:window-maximized="1"
-     inkscape:window-y="27"
-     inkscape:window-x="1992"
-     inkscape:window-height="1016"
-     inkscape:window-width="1848"
+     inkscape:window-y="0"
+     inkscape:window-x="0"
+     inkscape:window-height="1007"
+     inkscape:window-width="1920"
      showgrid="false"
      inkscape:current-layer="layer1"
      inkscape:document-units="mm"
-     inkscape:cy="249.42239"
-     inkscape:cx="443.13877"
+     inkscape:cy="250.92795"
+     inkscape:cx="442.63691"
      inkscape:zoom="0.99630191"
      inkscape:pageshadow="2"
      inkscape:pageopacity="0.0"
@@ -43,7 +43,9 @@
      fit-margin-right="0"
      fit-margin-bottom="0"
      inkscape:pagecheckerboard="0"
-     inkscape:snap-global="true" />
+     inkscape:snap-global="true"
+     inkscape:showpageshadow="2"
+     inkscape:deskcolor="#d1d1d1" />
   <defs
      id="defs2">
     <rect
@@ -42794,7 +42796,7 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-131.86919,-154.77792)">
+     transform="translate(-131.78206,-154.64386)">
     <g
        transform="matrix(0.28222223,0,0,0.28222223,-64.85699,-518.58747)"
        id="g4200" />
@@ -44075,7 +44077,7 @@
   </g>
   <g
      id="g23269"
-     transform="translate(-2.8226661,-157.99448)">
+     transform="translate(-2.7355321,-157.86042)">
     <path
        inkscape:connector-curvature="0"
        id="path45458"

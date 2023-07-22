@@ -23,15 +23,15 @@
 
 <item>
   <title>
-    <![CDATA[  3D printed Roche potential  ]]>
+    <![CDATA[  Julia programming  ]]>
   </title>
-  <link> https://orlox.github.io/posts/2021-12-29-3d-printed-roche-potential/index.html </link>
-  <guid> https://orlox.github.io/posts/2021-12-29-3d-printed-roche-potential/index.html </guid>
+  <link> https://orlox.github.io/posts/2022-04-04-julia/index.html </link>
+  <guid> https://orlox.github.io/posts/2022-04-04-julia/index.html </guid>
   <description>
-    <![CDATA[  A simple python script to produce geometry in blender from a function. This can be used to produce files for 3d printing.  ]]>
+    <![CDATA[  Basic first steps to use julia  ]]>
   </description>  
     
-  <pubDate>Wed, 29 Dec 2021 00:00:00 +0000</pubDate>  
+  <pubDate>Mon, 04 Apr 2022 00:00:00 +0000</pubDate>  
   
   
   <atom:author>

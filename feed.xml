@@ -23,15 +23,15 @@
 
 <item>
   <title>
-    <![CDATA[  More goodies  ]]>
+    <![CDATA[  Julia programming  ]]>
   </title>
-  <link>  </link>
-  <guid>  </guid>
+  <link> https://orlox.github.io/posts/2022-04-04-julia/index.html </link>
+  <guid> https://orlox.github.io/posts/2022-04-04-julia/index.html </guid>
   <description>
-    <![CDATA[  A short description of the page which would serve as <strong>blurb</strong> in a <code>RSS</code> feed; you can use basic markdown here but the whole description string must be a single line &#40;not a multiline string&#41;. Like this one for instance. Keep in mind that styling is minimal in RSS so for instance don&#39;t expect maths or fancy styling to work; images should be ok though: <img src="https://upload.wikimedia.org/wikipedia/en/b/b0/Rick_and_Morty_characters.jpg" alt="" />  ]]>
+    <![CDATA[  Basic first steps to use julia  ]]>
   </description>  
     
-  <pubDate>Wed, 01 May 2019 00:00:00 +0000</pubDate>  
+  <pubDate>Mon, 04 Apr 2022 00:00:00 +0000</pubDate>  
   
   
   <atom:author>
@@ -42,15 +42,53 @@
 
 <item>
   <title>
-    <![CDATA[  Code blocks  ]]>
+    <![CDATA[  Di Caprio commenting on one of my plots  ]]>
   </title>
-  <link> https://orlox.github.io/menu1/index.html </link>
-  <guid> https://orlox.github.io/menu1/index.html </guid>
+  <link> https://orlox.github.io/posts/2022-04-04-dicaprio/index.html </link>
+  <guid> https://orlox.github.io/posts/2022-04-04-dicaprio/index.html </guid>
   <description>
-    <![CDATA[  A short description of the page which would serve as <strong>blurb</strong> in a <code>RSS</code> feed; you can use basic markdown here but the whole description string must be a single line &#40;not a multiline string&#41;. Like this one for instance. Keep in mind that styling is minimal in RSS so for instance don&#39;t expect maths or fancy styling to work; images should be ok though: <img src="https://upload.wikimedia.org/wikipedia/en/3/32/Rick_and_Morty_opening_credits.jpeg" alt="" />  ]]>
+    <![CDATA[  It seems Leo has a high appreciation for code comparison.  ]]>
   </description>  
     
-  <pubDate>Fri, 22 Mar 2019 00:00:00 +0000</pubDate>  
+  <pubDate>Mon, 04 Apr 2022 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Pablo Marchant</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  3D printed Roche potential  ]]>
+  </title>
+  <link> https://orlox.github.io/posts/2021-12-29-3d-printed-roche-potential/index.html </link>
+  <guid> https://orlox.github.io/posts/2021-12-29-3d-printed-roche-potential/index.html </guid>
+  <description>
+    <![CDATA[  A simple python script to produce geometry in blender from a function. This can be used to produce files for 3d printing.  ]]>
+  </description>  
+    
+  <pubDate>Wed, 29 Dec 2021 00:00:00 +0000</pubDate>  
+  
+  
+  <atom:author>
+    <atom:name>Pablo Marchant</atom:name>
+  </atom:author>
+        
+</item>
+
+<item>
+  <title>
+    <![CDATA[  Hello world  ]]>
+  </title>
+  <link> https://orlox.github.io/posts/2021-12-28-hello-world/index.html </link>
+  <guid> https://orlox.github.io/posts/2021-12-28-hello-world/index.html </guid>
+  <description>
+    <![CDATA[  Just starting things here  ]]>
+  </description>  
+    
+  <pubDate>Tue, 28 Dec 2021 00:00:00 +0000</pubDate>  
   
   
   <atom:author>
