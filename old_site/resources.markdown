@@ -6,7 +6,6 @@ permalink: /resources/
 
 
 ****
-----
 ## _Thesis work_
 
 During my education I had to write three theses, one for my undergrad, one for my masters, and the last one
@@ -21,8 +20,6 @@ results were published as [Marchant et al. (2015)](https://ui.adsabs.harvard.edu
 _"Large-scale instabilities of poloidal magnetic fields in stars"_<br>
 results were published as [Marchant et al. (2011)](https://ui.adsabs.harvard.edu/abs/2011MNRAS.415.2426M/abstract)
 
-****
-----
 ## _Teaching Material_
 
 # GW astrophysics
