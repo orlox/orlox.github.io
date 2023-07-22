@@ -1,5 +1,8 @@
-@def title = "About me"
-@def tags = ["home", "about"]
++++
+title = "About me"
+
+tags = ["home", "about", "contact"]
++++
 
 ~~~
 <div class="row">
