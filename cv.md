@@ -34,7 +34,7 @@ If you want to check my publication list, you can look it up in [this NASA-ads p
 
 ## _Fellowships and awards_
 
-* 2025 - Now - ERC Starting Grant: Star-Grasp (STARs as GRAvitational wave Source Progenitors)
+* 2025 - Now - **ERC Starting Grant**: Star-Grasp (STARs as GRAvitational wave Source Progenitors)
 * 2022 - Now - **FWO Senior Postdoctoral Fellowship**\
     Competitive 3-year personal fellowship offered by the by the Research Foundation Flanders (FWO)
 * 2019 - 2022 - **FWO Junior Postdoctoral Fellowship**\
