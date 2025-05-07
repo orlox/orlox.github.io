@@ -10,6 +10,9 @@ If you want to check my publication list, you can look it up in [this NASA-ads p
 
 ## _Employement_
 
+* Feb 2025 - Now - **Assistant Professor**,\
+    Department of Physics and Astronomy,\
+    Ghent University, Belgium
 * Nov 2022 - Now - **Senior Postdoctoral Research Fellow**,\
     Offered by the Research Foundation Flanders (FWO)\
     Institute of Astronomy, KU Leuven, Belgium
