@@ -270,6 +270,14 @@ html {
     width: 15rem;
     text-align: left;
   }
+  .sidebar img{
+    display: block;
+  }
+}
+@media (max-width: 768px) {
+  .sidebar img{
+    display: none;
+  }
 }
 
 /* Sidebar links */
@@ -327,7 +335,7 @@ a.sidebar-nav-item:focus {
  */
 
 .content {
-  padding-top: 4rem;
+  padding-top: 0rem;
   padding-bottom: 4rem;
 }
 

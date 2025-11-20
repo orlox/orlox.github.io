@@ -4,43 +4,6 @@ title = "Resources"
 tags = ["resources", "thesis", "illustration"]
 +++
 
-## _Thesis work_
-
-During my education I had to write three theses, one for my undergrad, one for my masters, and the last one
-for my PhD. You can download those down here, earlier ones are a curious retrospective on how I wrote at a much junior stage.
-- [PhD thesis](../assets/docs/PhD_thesis.pdf):\
-    _"The impact of tides and mass transfer on the evolution of metal-poor massive binary stars"_\
-    ADS entry [here](https://ui.adsabs.harvard.edu/abs/2017PhDT.......434M/abstract)
-- [Master thesis](../assets/docs/Master_thesis.pdf):\
-    _"Evolution of axially symmetric magnetic fields in neutron star crusts due to the Hall drift"_,\
-    results were published as [Marchant et al. (2015)](https://ui.adsabs.harvard.edu/abs/2014ApJ...796...94M/abstract)
-- [Undergrad thesis](../assets/docs/Undergrad_thesis.pdf):\
-    _"Large-scale instabilities of poloidal magnetic fields in stars"_\
-    results were published as [Marchant et al. (2011)](https://ui.adsabs.harvard.edu/abs/2011MNRAS.415.2426M/abstract)
-
-## _Teaching Material_
-
-### GW astrophysics
-
-These are the slides for a series of lectures I made on 2021 at KU Leuven as part of the course
-"high energy astrophysics". These are not meant to go deep into GR, but rather get an overview of
-what is measured by current detectors.
-
-- [Part 1](../assets/docs/2022/GW_part1.pdf): Overview
-- [Part 2](../assets/docs/2022/GW_part2.pdf): Ground based interferometers
-- [Part 3](../assets/docs/2022/GW_part3.pdf): GWs from compact binaries
-- [Part 4](../assets/docs/2022/GW_part4.pdf): Parameter estimation
-- [Part 5](../assets/docs/2022/GW_part5.pdf): Astrophysics of observed GW sources
-
-### Ordinary differential equations
-
-After repeatedly being a teaching assistant for the course on ordinary differential equations
-at my university in Chile, I wrote down a set of notes including a summary of 
-the covered material together with sets of problems with solutions. I know these
-these were still in use after I left, so in case someone else might find them
-useful they can be downloaded [here](../assets/docs/2022/Ecuaciones_Diferenciales.pdf). Just
-one warning, these are in spanish!
-
 ## _Illustrations_
 
 I often like to invest time making nice looking figures to illustrate my work. Although I am a bit critical

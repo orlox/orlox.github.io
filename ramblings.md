@@ -4,4 +4,6 @@ title = "Ramblings"
 tags = ["ramblings"]
 +++
 
-{{recentblogposts}}
+# Random stuff
+
+{{blogposts}}

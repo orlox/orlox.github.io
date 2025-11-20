@@ -15,18 +15,51 @@ function lx_baz(com, _)
   return uppercase(brace_content)
 end
 
-function hfun_recentblogposts()
+@delay function hfun_blogposts()
+    today = Dates.today()
+    curyear = year(today)
+    curmonth = month(today)
+    curday = day(today)
+
     list = readdir("posts")
-    filter!(f -> endswith(f, ".md"), list)
-    dates = [stat(joinpath("blog", f)).mtime for f in list]
-    perm = sortperm(dates, rev=true)
-    idxs = perm[1:min(5, length(perm))]
-    io = IOBuffer()
-    write(io, "<ul>")
-    for (k, i) in enumerate(idxs)
-        fi = "/posts/" * splitext(list[i])[1] * "/"
-        write(io, """<li><a href="$fi">Post $k</a></li>\n""")
+
+    filter!(endswith(".md"), list)
+    function sorter(p)
+        ps = splitext(p)[1]
+        url = "posts/$ps/"
+        surl = strip(url, '/')
+        pubdate = pagevar(surl, "rss_pubdate")
+        #if isnothing(pubdate)
+        #    return Date(Dates.unix2datetime(stat(surl * ".md").ctime))
+        #end
+        #return Date(pubdate, dateformat"yyyy-mm-dd")
     end
-    write(io, "</ul>")
+    sort!(list, by=sorter, rev=true)
+
+    io = IOBuffer()
+    #write(io, """<ul class="blog-posts">""")
+
+    write(io, """<div class="franklin-content">""")
+    for (i, post) in enumerate(list)
+        if post == "content/index.md"
+            continue
+        end
+        ps = splitext(post)[1]
+        write(io, "<li>")
+        url = "/posts/$ps/"
+        url_aux = "./posts/$ps/"
+        surl = strip(url, '/')
+        title = pagevar(surl, "title")
+        pubdate = pagevar(surl, "date")
+        description = pagevar(surl, "rss_description")
+        if isnothing(pubdate)
+            date = "$curyear-$curmonth-$curday"
+        else
+            #date = Date(pubdate, dateformat"yyyy-mm-dd")
+        end
+        write(io, """$pubdate<br>""")
+        write(io, """<a href="$url_aux">$title</a></b><p>""")
+    end
+    write(io, "</div>")
     return String(take!(io))
 end
