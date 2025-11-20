@@ -40,7 +40,7 @@ end
     #write(io, """<ul class="blog-posts">""")
 
     write(io, """<div class="franklin-content">""")
-    for (i, post) in enumerate(list)
+    for (i, post) in Iterators.reverse(enumerate(list))
         if post == "content/index.md"
             continue
         end
