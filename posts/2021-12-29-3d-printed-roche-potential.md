@@ -6,7 +6,8 @@ rss = "A simple python script to produce geometry in blender from a function. Th
 
 tags = ["3dprinting", "code", "python", "roche potential"]
 +++
-{{date}}
+# 3D printed Roche potential
+### {{date}}
 
 ![Roche potentail](/assets/Roche-3d-print.jpg)
 

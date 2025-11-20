@@ -18,8 +18,8 @@ ignore = ["node_modules/"]
 # RSS (the website_{title, descr, url} must be defined to get RSS)
 generate_rss = true
 website_title = "Pablo Marchant"
-website_descr = "Personal Website of Pablo Marchant"
-website_url   = "https://orlox.github.io/"
+website_descr = "Personal website of Pablo Marchant"
+website_url   = "https://orlox.github.io"
 +++
 
 <!--
