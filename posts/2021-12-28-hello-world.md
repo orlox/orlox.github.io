@@ -7,7 +7,7 @@ rss = "Just starting things here"
 tags = ["Hello world"]
 +++
 # Hello World
-## {{date}}
+### {{date}}
 
 This is the start of my personal webpage. Hope to periodically start filling this space
 with exciting news and random content..

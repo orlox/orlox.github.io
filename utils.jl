@@ -47,7 +47,7 @@ end
         ps = splitext(post)[1]
         write(io, "<li>")
         url = "/posts/$ps/"
-        url_aux = "./posts/$ps/"
+        url_aux = "/posts/$ps/"
         surl = strip(url, '/')
         title = pagevar(surl, "title")
         pubdate = pagevar(surl, "date")
