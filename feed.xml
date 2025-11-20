@@ -11,9 +11,9 @@
     <title>
       <![CDATA[  Pablo Marchant  ]]>
     </title>
-    <link> https://orlox.github.io/ </link>
+    <link> https://orlox.github.io </link>
     <description>
-      <![CDATA[  Personal Website of Pablo Marchant  ]]>
+      <![CDATA[  Personal website of Pablo Marchant  ]]>
     </description>
     <atom:link
       href="https://orlox.github.io/feed.xml"
@@ -23,12 +23,12 @@
 
 <item>
   <title>
-    <![CDATA[  Julia programming  ]]>
+    <![CDATA[  Di Caprio commenting on one of my plots  ]]>
   </title>
-  <link> https://orlox.github.io/posts/2022-04-04-julia/index.html </link>
-  <guid> https://orlox.github.io/posts/2022-04-04-julia/index.html </guid>
+  <link> https://orlox.github.io/posts/2022-04-04-dicaprio/index.html </link>
+  <guid> https://orlox.github.io/posts/2022-04-04-dicaprio/index.html </guid>
   <description>
-    <![CDATA[  Basic first steps to use julia  ]]>
+    <![CDATA[  It seems Leo has a high appreciation for code comparison.  ]]>
   </description>  
     
   <pubDate>Mon, 04 Apr 2022 00:00:00 +0000</pubDate>  
@@ -42,15 +42,15 @@
 
 <item>
   <title>
-    <![CDATA[  Di Caprio commenting on one of my plots  ]]>
+    <![CDATA[  Julia programming  ]]>
   </title>
-  <link> https://orlox.github.io/posts/2022-04-04-dicaprio/index.html </link>
-  <guid> https://orlox.github.io/posts/2022-04-04-dicaprio/index.html </guid>
+  <link> https://orlox.github.io/posts/2022-01-01-julia/index.html </link>
+  <guid> https://orlox.github.io/posts/2022-01-01-julia/index.html </guid>
   <description>
-    <![CDATA[  It seems Leo has a high appreciation for code comparison.  ]]>
+    <![CDATA[  Basic first steps to use julia  ]]>
   </description>  
     
-  <pubDate>Mon, 04 Apr 2022 00:00:00 +0000</pubDate>  
+  <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>  
   
   
   <atom:author>
