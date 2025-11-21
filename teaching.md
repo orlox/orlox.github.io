@@ -1,7 +1,7 @@
 +++
-title = "Education"
+title = "Teaching"
 
-tags = ["education"]
+tags = ["Teaching"]
 +++
 
 ## _Teaching Material_
@@ -17,6 +17,13 @@ what is measured by current detectors.
 - [Part 3](../assets/docs/2022/GW_part3.pdf): GWs from compact binaries
 - [Part 4](../assets/docs/2022/GW_part4.pdf): Parameter estimation
 - [Part 5](../assets/docs/2022/GW_part5.pdf): Astrophysics of observed GW sources
+
+### MESA tutorials
+
+I have contributed in different capacity to the summer schools of the MESA software instrument, being a lecturer twice. Owing to changes in MESA these tutorials will not easily work in modern versions of the code, but can be useful as reference material.
+
+- MESA summer school 2017: Official website [here](https://mesastar.org/summer-school-2017/agenda.html). I contributed a tutorial on rotation in binary systems, lab files and presentation available [here](https://zenodo.org/records/5565258).
+- MESA summer school 202: Official website [here](https://mesastar.org/summer-school-2022/). I contributed a tutorial on rotation in binary systems, lab files and presentation available [here](https://orlox.github.io/mesa2022_hmxb/).
 
 ### Ordinary differential equations
 

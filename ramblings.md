@@ -1,7 +1,7 @@
 +++
-title = "Ramblings"
+title = "Random stuff"
 
-tags = ["ramblings"]
+tags = ["random"]
 +++
 
 # Random stuff

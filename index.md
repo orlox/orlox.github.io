@@ -6,7 +6,7 @@ tags = ["home", "about", "contact"]
 
 # About me
 ~~~
-<div class="row">
+<div class="row" style="text-align:justify">
   <div class="container">
     <img class="left" style="max-width:25%;" src="/assets/photo.JPG">
 ~~~
