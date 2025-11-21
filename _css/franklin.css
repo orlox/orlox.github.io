@@ -187,7 +187,8 @@ td {
 }
 
 .franklin-content a {
-  color: #004de6;
+  /*color: #004de6;*/
+  color: rgb(102, 144, 250);
   text-decoration: none;
 }
 
