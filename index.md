@@ -22,3 +22,7 @@ Presently exploring a few new things, including the development of a [brand new 
   </div>
 </div>
 ~~~
+
+**Interested in opportunities within my research team?** Then take a look at the [jobs](/jobs) section.
+
+**Want to learn** some of the basics of binary evolution as well as current research developments? I can recommend my contribution to the [Encyclopedia of Astrophysics](https://ui.adsabs.harvard.edu/abs/2025arXiv250316099M/abstract), as well as my contribution to the [Annual Reviews](https://ui.adsabs.harvard.edu/abs/2024ARA%26A..62...21M/abstract). Various resources on stellar evolution and binary evolution are available in the [teaching](/teaching) section. If you really want to dig into the subject, I strongly recommend the [wonderful textbook](https://ui.adsabs.harvard.edu/abs/2023pbse.book.....T/abstract) written by Thomas Tauris and Ed van den Heuvel.

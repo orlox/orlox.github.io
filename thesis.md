@@ -22,7 +22,7 @@ for my PhD. You can download those down here, earlier ones are a curious retrosp
 
 ## _PhD Students_
 
-- **Matthias Fabry**:\
+- [**Matthias Fabry**](https://orcid.org/0000-0003-4200-7852):\
     [_"Detailed structure and evolution modeling of the tightest massive binary stars"_](https://zenodo.org/records/17668509/files/PhD_2024_Matthias_Fabry.pdf). 2024, KU Leuven, Belgium.
 
 ## _MsC Students_

@@ -28,3 +28,7 @@ The FWO also has fellowship scheme for PhD students:
 - [FWO PhD Fellowship fundamental research](https://www.fwo.be/en/support-programmes/all-calls/phd/phd-fellowship-fundamental-research/): Normally due beginning of March.
 
 Additional funding possibilities could be present through Ghent University. In particular, for students of developing countries in the global south, there is the possibility to [co-fund a doctoral degree](https://www.ugent.be/en/research/funding/bof/dos). This requires joint supervision from a promoter at Ghent University and another one in the partner University located at the other country, with both parties contributing financially.
+
+## Master projects
+
+There are always interesting projects available to pursue as part of a Master thesis. If you're enrolled in the Masters program at Ghent University and are interested to join the team, let me know!
