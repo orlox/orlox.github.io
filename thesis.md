@@ -3,6 +3,8 @@ title = "Thesis"
 
 tags = ["thesis"]
 +++
+# Thesis
+Here I compile completed dissertations where I have been officially involved.
 
 ## Personal Thesis work
 

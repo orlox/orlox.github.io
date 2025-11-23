@@ -6,6 +6,10 @@ tags = ["Teaching"]
 
 # Teaching Material
 
+## Stellar astrophysics
+
+After teaching the mandatory 1st year course on stellar evolution at KU Leuven for a few years, I produced a collection of lecture notes, exercises with solutions and labs (using MESA, lab design courtesy of Annachiara Picco). Latest iteration of these can be found online [here](https://orlox.github.io/stars_2024_2025/).
+
 ## GW astrophysics
 
 These are the slides for a series of lectures I made on 2021 at KU Leuven as part of the course
