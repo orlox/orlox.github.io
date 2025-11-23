@@ -4,12 +4,12 @@ title = "Talks and Presentations"
 tags = ["talks"]
 +++
 
-# _Talks and presentations_
+# Talks and presentations
 
 For talks listed below, name of the contribution is given first followed by the event. Copies of the slides for all talks are provided, although I usually
 design them to work in conjunction with me actually speaking. So things can be lost if looking at them as stand-alone documents (a few have online recordings though).
 
-## Invited
+## _Invited_
 
 * 2025/09 - [_**From mass transfer to stripped stars**_](https://zenodo.org/records/17669727/files/202509_Ensenada.tar.gz?download=1),\
     IAU Symposium 402: Massive Stars Across Redshifts in the Era of JWST and Large-Scale Surveys, Ensenada.
@@ -37,7 +37,7 @@ design them to work in conjunction with me actually speaking. So things can be l
 * 2017/08 - [_**Single vs Binary star evolution**_](https://zenodo.org/records/17669727/files/201708_Quebec.pdf?download=1),\
     Third BRITE-Constellation Science Conference, Quebec
 
-## Presentations at institutes (invited seminar/colloqium speaker)
+## _Presentations at institutes (invited seminar/colloqium speaker)_
 
 * 2025/07 - [_**From stars to gravitational wave sources**_](https://zenodo.org/records/17669727/files/202507_Armagh.tar.gz?download=1),\
     Armagh Observatory, Armagh
@@ -68,7 +68,7 @@ design them to work in conjunction with me actually speaking. So things can be l
 * 2017/01 - [_**Identifying the progenitors of LIGO's first black holes**_](https://zenodo.org/records/17669727/files/201701_Oxford.pdf?download=1),\
     University of Oxford
 
-## Presentations at institutes (for specific research groups)
+## _Presentations at institutes (for specific research groups)_
 
 * 2021/09 - [_**Forming binary black holes through mass transfer or common envelope evolution**_](https://zenodo.org/records/17669727/files/202109_Caltech.pdf?download=1),\
     Caltech (J. Fuller's group), virtual
@@ -96,7 +96,7 @@ design them to work in conjunction with me actually speaking. So things can be l
 * 2013/12 - [_**Modelling the evolution of massive binary stars**_](https://zenodo.org/records/17669727/files/201312_Santiago.pdf?download=1),\
     Instituto de Astrofisica, Universidad Catolica de Chile
 
-## Contributed talks
+## _Contributed talks_
 
 * 2025/05 - [_**Benchmarking Stellar Models**_](https://zenodo.org/records/17680249/files/20250508_XSHOOTU.pdf?download=1),\
     XShootU in-person meeting 2025, Vienna

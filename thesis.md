@@ -6,7 +6,7 @@ tags = ["thesis"]
 # Thesis
 Here I compile completed dissertations where I have been officially involved.
 
-## Personal Thesis work
+## _Personal Thesis work_
 
 During my education I had to write three theses, one for my undergrad, one for my masters, and the last one
 for my PhD. You can download those down here, earlier ones are a curious retrospective on how I wrote at a much junior stage.
@@ -20,12 +20,12 @@ for my PhD. You can download those down here, earlier ones are a curious retrosp
     [_"Large-scale instabilities of poloidal magnetic fields in stars"_](), 2010, Pontificia Universidad Católica de Chile, Chile.\
     Results were later published as [Marchant et al. (2011)](https://ui.adsabs.harvard.edu/abs/2011MNRAS.415.2426M/abstract).
 
-## PhD Students
+## _PhD Students_
 
 - **Matthias Fabry**:\
     [_"Detailed structure and evolution modeling of the tightest massive binary stars"_](https://zenodo.org/records/17668509/files/PhD_2024_Matthias_Fabry.pdf). 2024, KU Leuven, Belgium.
 
-## MsC Students
+## _MsC Students_
 
 - **Sasha Graulus**:\
     [_"Mass Transfer Stability of Massive Binaries: The Role of Stellar Structure in Forming Merging Double Compact Objects"_](https://zenodo.org/records/17668509/files/MsC_2025_Sasha_Graulus.pdf), 2025, KU Leuven, Belgium. Co-supervised with Annachiara Picco.

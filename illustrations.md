@@ -4,7 +4,9 @@ title = "Resources"
 tags = ["resources", "thesis", "illustration"]
 +++
 
-## _Illustrations_
+# Illustrations
+
+## _Own work_
 
 I often like to invest time making nice looking figures to illustrate my work. Although I am a bit critical
 of how they look, people seem to like them :). So here are a few. Some of these have come up on papers, some other on
@@ -14,16 +16,19 @@ proposals. SVG files are provided here, so feel free to take specific parts to m
 - Different types of Roche lobe overflow. Figure from my PhD thesis.
 \imagewithsize{/assets/illustration/rlof.svg}{rlof}{80%}
 
+- Similar to the previous one, but with 3D plots of the Roche potential. This is part of my [2025 contribution](https://ui.adsabs.harvard.edu/abs/2025arXiv250316099M/abstract) to the Encyclopedia of Astrophysics, all scripts to create these and other nice figures are available through [zenodo](https://zenodo.org/records/14710863).  
+\imagewithsize{/assets/illustration/roche_plot.png}{rlof2}{80%}
+
+- Evolution of a massive binary until the formation of a merging binary neutron star. Part of my [review on massive binary evolution](https://ui.adsabs.harvard.edu/abs/2024ARA%26A..62...21M/abstract) together with Julia Bodensteiner. SVG file available [here](/assets/illustration/merging_ns.svg), note that the published version of the figure is adjusted to fit the style of the Annual Reviews.
+\imagewithsize{/assets/illustration/merging_ns.png}{Merging_NS}{80%}
+
 - Evolution of a massive overcontact binary system leading to a binary black hole. Part of [Marchant et al. (2017)](https://ui.adsabs.harvard.edu/abs/2017A%26A...604A..55M/abstract).
 \imagewithsize{/assets/illustration/MOB.svg}{MOB}{30%}
 
 - Evolution of a close massive binary leading to a ULX. Part of [Marchant et al. (2017)](https://ui.adsabs.harvard.edu/abs/2017A%26A...604A..55M/abstract).
 \imagewithsize{/assets/illustration/ULX.svg}{ULX}{30%}
 
-- Formation of a Be X-ray binary. Made for an observing proposal.
-\imagewithsize{/assets/illustration/be.svg}{Be star}{30%}
-
-- Illustration of various evolutionary channels leading to a merging binary black hole. Figure from a proposal.
+- Illustration of various evolutionary channels leading to a merging binary black hole. Figure from a proposal. A slightly modified version is available in my [2025 contribution](https://ui.adsabs.harvard.edu/abs/2025arXiv250316099M/abstract) to the encyclopedia of astrophysics.
 \imagewithsize{/assets/illustration/channels.svg}{GW channels}{80%}
 
 - Formation of a binary black hole from common envelope and chemically homogeneous evolution, with potential pulsational pair-instability supernovae in between.\
