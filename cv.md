@@ -62,7 +62,7 @@ Completed dissertations were I was officially listed as a supervisor, as well as
 * 09/2025 - present - [**Polina Smirnova**](https://orcid.org/0009-0002-5546-1253)\
     Supervisor of Ph.D. student, Department of Physics and Astronomy – Ghent University\
     _"Statistical analysis of stellar populations in the Magellanic clouds"_
-* 09/2025 - present - [**Ritavash Debnath**](https://research.ugent.be/web/person/ritavash-debnath-0/en)\
+* 09/2025 - present - [**Ritavash Debnath**](https://orcid.org/0009-0000-6875-1669)\
     Supervisor of Ph.D. student, Department of Physics and Astronomy – Ghent University\
     _"The next generation of stellar evolution simulations"_
 * 09/2021 - present - [**Annachiara Picco**](https://annachiarapicco.github.io/)\

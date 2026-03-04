@@ -41,6 +41,17 @@ proposals. SVG files are provided here, so feel free to take specific parts to m
 - Formation of a binary containing an extremely low mass white dwarf. Made by request from Alina Istrate.
 \imagewithsize{/assets/illustration/ELM.svg}{ELLM formation}{80%}
 
+## _3D Modeling_
+
+Through the years I have managed to get some minimal experience with 3D modeling for both 3D printing as well as informal science visualization (e.g. for outreach). Below are some examples of this:
+
+- 3D printed model of a Roche potential (details and STL files [here](/posts/2021-12-29-3d-printed-roche-potential/))
+![Roche potentail](/assets/Roche-3d-print.jpg)
+- Artistic impression of a binary composed of a star with a black hole (details and blender files [here](/posts/2026-03-04-blender/))
+~~~
+<iframe width="975" height="548" src="https://www.youtube.com/embed/svFYE7ydUlQ" title="Black hole orbiting tidally deformed star, take two" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+~~~
+
 ## _Nicer Illustrations_
 
 Also my wife (Sara Pinilla) has helped produce what I consider to be much prettier illustrations. You can find some
